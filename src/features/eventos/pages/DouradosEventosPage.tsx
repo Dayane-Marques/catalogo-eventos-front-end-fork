@@ -60,6 +60,7 @@ const initialData: AppState = {
       desc: "Barracas, food trucks e música ao vivo com artistas locais.",
     },
     {
+      
       id: createId(),
       titulo: "Corrida Parque dos Ipês 10K",
       cat: "Esporte",
