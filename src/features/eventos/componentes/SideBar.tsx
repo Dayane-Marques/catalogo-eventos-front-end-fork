@@ -5,7 +5,7 @@ export interface SideBarProps {
    handleActiveTab : (value: "eventos"|"turismo"|"cidades") => void;
 
 }
-
+ 
 export default function SideBar({open,handleSideMenuOpen, handleActiveTab}: SideBarProps) {
  
 

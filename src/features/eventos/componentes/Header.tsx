@@ -4,7 +4,7 @@ export interface HeaderProps{
     handleSideMenuOpen: () => void;
     handleShowFilters : () => void; 
 }
-
+ 
 export default function Header( { open, handleSideMenuOpen, handleShowFilters}: HeaderProps) {
     return (
         <header className="sticky top-0 z-30 border-b border-white/10 bg-slate-950/80 backdrop-blur">
