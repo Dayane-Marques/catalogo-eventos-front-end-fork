@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "concurrently -n web,api -c cyan,magenta \"vite\" \"yarn fake-api\"",
+    "fake-api": "json-server --watch bff/fake-api/db.json --port 3333 --delay 300",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
