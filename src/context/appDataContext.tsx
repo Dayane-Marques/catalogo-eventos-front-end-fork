@@ -106,6 +106,7 @@ export const AppDataProvider: React.FC<React.PropsWithChildren> = ({
       });
     }, []);
 
+    
   const deleteEvento: AppDataContextValue["deleteEvento"] = useCallback(
     (id) => {
       setState((prev) => ({
